@@ -64,6 +64,7 @@ body .containerfull{
 }
 .pengalaman{
     text-align: center;
+    font-size: 1.5em;
 }
 
 .about .container .row .col-sm-5{
@@ -200,6 +201,13 @@ transform: scale(1.2);
 
 
 @media (max-width: 900px){
+    body .containerfull{
+        margin: 70px 10px;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 0;
+        box-shadow: 0px 5px 5px 5px rgb(0, 0, 0,.5);
+    }
     .skill .col-sm-6:hover{
         transform: scale(1.05);
     
