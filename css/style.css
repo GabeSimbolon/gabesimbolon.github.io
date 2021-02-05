@@ -191,6 +191,15 @@ footer p a:hover{
 transform: scale(1.2);
 }
 
+.pesan .row h3 a{
+    color: black;
+    transition: .3s;
+}
+
+.pesan .row h3 a:hover{
+    color: black;
+    font-size: 1.2em;
+}
 
 .footer .row .in{
     display: inline-block;
